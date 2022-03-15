@@ -33,7 +33,7 @@ RUN cp /etc/crontabs/root /root/crontab
 ADD scripts /scripts/
 
 # Set up Environment
-ENV VDIRSYNCER_CONFIG=${APP_DIR}/config \
+ENV VDIRSYNCER_CONFIG=$APP_DIR/config \
         LOG=/vdirsyncer/logs/vdirsyncer.log \
         AUTODISCOVER=false \
         AUTOSYNC=false \
