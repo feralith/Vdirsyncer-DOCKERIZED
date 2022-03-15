@@ -1,1 +1,5 @@
-reference.yml
+/.docker/
+/.idea/
+
+.env*
+config

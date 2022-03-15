@@ -22,5 +22,5 @@ services:
       # Cron Time need to be set in Cron format - look here for generator https://crontab.guru/
       # Set CRON_TIME like that --> '*/15 * * * *'
     volumes:
-      - /path/to/folder/.docker/vdirsyncer:/vdirsyncer
+      - ${APP_FILES_PATH}/vdirsyncer:/vdirsyncer
 
